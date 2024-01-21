@@ -1,9 +1,4 @@
-.grid-container{
-    display:grid;
-    grid-template-rows: auto auto auto;
-    
 
-}
 .grid-main{
     display:grid;
     grid-template-columns: repeat(6,1fr);
@@ -11,5 +6,18 @@
     
 }
 .grid-items{
-    border:5px solid;
+    border:5px solid black;
+    background-color: chocolate;
+}
+@media (min-width:475px){
+    .grid-main{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+@media (max-width:600px){
+    .grid-items{
+        grid-template-columns: repeat(3,1fr);
+    }
+
 }
