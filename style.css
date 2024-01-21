@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    background: blueviolet;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.item
+{
+    background-color: antiquewhite;
+    margin:10px;
+    padding: 40px;
+}
